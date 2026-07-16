@@ -12989,7 +12989,7 @@ function Gy() {
         alert("Por favor, preencha o seu endereço de entrega.");
         return;
       }
-      let o = `*NOVO PEDIDO - CARDÁPIO ELIVANIA*
+      let o = `*NOVO PEDIDO - CARDÁPIO DIGITAL*
 
 `;
       ((o += `*Cliente:* ${D}
@@ -13038,7 +13038,7 @@ function Gy() {
                 className: "brand-text",
                 children: [
                   E.jsx("span", { children: "Cardápio" }),
-                  " Elivania",
+                  " Digital",
                 ],
               }),
             ],
